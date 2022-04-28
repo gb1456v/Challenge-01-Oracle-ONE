@@ -1,7 +1,6 @@
 # Challenge-01-Oracle-ONE
 # O que tem neste repositório?
 Eu criei este repositório para armazenar o código do desafio do ínicio até a etapa final e claro, para que fique no meu perfil, assim fazendo parte do meu portfólio.<br/>
-A imagem de capa é o resultado final proposto.<br/>
 # Me desafiaram a fazer o que?
 A fazer um encriptador/desencriptador de textos.<br/>
 # Como isso deve ser feito?
@@ -26,7 +25,8 @@ A página deve ter campos para inserção do texto a ser criptografado ou descri
 O resultado deve ser exibido na tela.<br/>
 Extras:<br/>
 - Um botão que copie o texto<br/> criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.<br/>
-
+# Qual é o resultado final proposto pelos criadores do desafio?
+![A imagem de capa é o resultado final esperado.](imagens/resultado-proposto.png)
 
 
 
