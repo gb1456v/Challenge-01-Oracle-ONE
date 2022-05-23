@@ -1,22 +1,36 @@
-<head>
-    <title>Challenge 1 - Encriptador/Desencriptador de texto</title>
-    <meta charset="UTF-8">
-</head>
-
-<body>
-    <header>
-        <img src="" alt="">
-    </header>
-    <section>
-        <input id="digitado" type="text">
-        <p>Apenas letras minúsculas e sem acento.</p>
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
-    </section>
-    <section>
-        <input type="text">
-        <img src="" alt="">
-        <h1>Nenhuma mensagem encontrada</h1>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-    </section>
-</body>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Challenge 1 - Encriptador/Desencriptador de texto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.svg" alt="logo da alura">
+        </header>
+        <main>
+            <section>
+                <div class="campo-mensagem">
+                    <label for="mensagem-inicial"><textarea  id="mensagem-inicial" cols="30" rows="10">Digite sua mensagem</textarea></label>
+                    <p>*Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <input type="button" value="Encriptar">
+                <input type="button" value="Desencriptar">
+            </section>
+            <section>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <div>
+                    <label for="resultado-mensagem">
+                        <textarea id="resultado-mensagem" cols="30" rows="10">Resultado</textarea>
+                        <img src="img/pessoa.svg" alt="">
+                </label>
+                </div>
+                
+                
+            </section>
+        </main>
+        
+    </body>
+</html>

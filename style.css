@@ -1,0 +1,11 @@
+body {
+    background:#F3F5FC;
+}
+header {
+    width: 800px;
+    padding: 35px;
+}
+header img {
+    width: 30px;
+    height: 38px;
+}
