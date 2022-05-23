@@ -5,30 +5,28 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <header>
             <img src="img/logo.svg" alt="logo da alura">
         </header>
         <main>
-            <section>
+            <section class="parte-um">
                 <div class="campo-mensagem">
-                    <label for="mensagem-inicial"><textarea  id="mensagem-inicial" cols="30" rows="10">Digite sua mensagem</textarea></label>
+                    <label for="mensagem-inicial"><textarea required placeholder="Digite sua mensagem" id="mensagem-inicial" cols="30" rows="10"></textarea></label>
                     <p>*Apenas letras minúsculas e sem acento.</p>
                 </div>
-                <input type="button" value="Encriptar">
-                <input type="button" value="Desencriptar">
+                <input type="submit" value="Encriptar">
+                <input type="submit" value="Desencriptar">
             </section>
-            <section>
+            <section class="parte-dois">
+                <textarea id="resultado-mensagem" cols="30" rows="10"></textarea>
+                <img src="img/pessoa.svg" alt="imagem com uma pessoa sentada">
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                <div>
-                    <label for="resultado-mensagem">
-                        <textarea id="resultado-mensagem" cols="30" rows="10">Resultado</textarea>
-                        <img src="img/pessoa.svg" alt="">
-                </label>
-                </div>
-                
-                
             </section>
         </main>
         
