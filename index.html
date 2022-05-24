@@ -14,16 +14,14 @@
         <header>
             <img src="img/logo.svg" alt="logo da alura">
         </header>
-        <main>
+        <main class="flex-container">
             <section class="parte-um">
-                <div class="campo-mensagem">
-                    <label for="mensagem-inicial"><textarea required placeholder="Digite sua mensagem" id="mensagem-inicial" cols="30" rows="10"></textarea></label>
-                    <p>*Apenas letras minúsculas e sem acento.</p>
-                </div>
+                <label for="mensagem-inicial"><textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea></label>
+                <p>*Apenas letras minúsculas e sem acento.</p>
                 <input type="submit" value="Encriptar">
                 <input type="submit" value="Desencriptar">
             </section>
-            <section class="parte-dois">
+            <section class="parte-dois column">
                 <textarea id="resultado-mensagem" cols="30" rows="10"></textarea>
                 <img src="img/pessoa.svg" alt="imagem com uma pessoa sentada">
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
