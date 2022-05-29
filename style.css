@@ -25,6 +25,11 @@ main {
     display: flex;
     align-items: center;
 }
+.flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .column {
     flex-wrap: nowrap;
     flex-direction: column;
@@ -41,6 +46,7 @@ main {
 .parte-um p {
     margin: 30px 20px;
     font-size: 25px;
+    width: 100%;
 }
 textarea {
     outline: 0;
@@ -52,20 +58,39 @@ textarea {
     line-height: 48px;
     background:#F3F5FC;
 }
-.parte-um input {
-    padding: 30px 40px;
+#copy {
+    align-self: flex-end;
+    padding: 20px 25px;
+    margin: 20px 25px;
+    background: #0A3871;
+    font-size: 23px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    cursor:pointer;
+    border-radius: 20px;
+}
+#copy:hover {
+    background: #024699;
+}
+#copy:active {
+    transform: scale(0.9);
+}
+.botao {
+    padding: 20px 25px;
     margin: 20px 25px;
     color: #fff;
-    font-size: 26px;
+    font-weight: bold;
+    font-size: 23px;
     border: none;
     cursor:pointer;
     background: #0A3871;
     border-radius: 20px;
 }
-.parte-um input:hover {
-    background-color: #0655b6;
+.parte-um .botao:hover {
+    background-color: #024699;
 }
-.parte-um input:active {
+.parte-um .botao:active {
     transform: scale(0.9);
 }
 .parte-dois {

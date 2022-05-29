@@ -16,11 +16,12 @@
             <img src="img/logo.svg" alt="logo da alura">
         </header>
         <main class="flex-container">
-            <section class="parte-um">
-                <label for="mensagem-inicial"><textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea></label>
+            <section class="parte-um flex-section">
+                <label for="mensagem-inicial"><textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea>
+                <input id="copy" type="button" value="Copiar"></label>
                 <p>*Apenas letras minúsculas e sem acento.</p>
-                <input type="submit" value="Encriptar">
-                <input type="submit" value="Desencriptar">
+                <input class="botao" type="submit" value="Encriptar">
+                <input  class="botao" type="submit" value="Desencriptar">
             </section>
             <section class="parte-dois column">
                 <textarea id="resultado-mensagem" cols="30" rows="10"></textarea>
