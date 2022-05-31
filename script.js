@@ -34,18 +34,6 @@ function criptografar() {
         var textoDigitado = campoMensagemDigitada.value;
         var textoCriptografado = textoDigitado
         
-        if(evento.keyCode == a) {
-                textoDigitado.replace(/a/g, "ai");
-        } else if(evento.keyCode == e) {
-                textoDigitado.replace(/e/g, "enter");
-        } else if(evento.keyCode == i) {
-                textoDigitado.replace(/i/g, "imes");
-        } else if(evento.keyCode == o) {
-                textoDigitado.replace(/o/g, "ober");
-        } else if(evento.keyCode == u) {
-                textoDigitado.replace(/u/g, "ufat");
-        }
-        return textoCriptografado;
-        console.log = textoCriptografado;
+       
 }
 botaoEncriptar.onclick = criptografar;
