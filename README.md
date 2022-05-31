@@ -26,7 +26,7 @@ O resultado deve ser exibido na tela.<br/>
 Extras:<br/>
 - Um botão que copie o texto<br/> criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.<br/>
 # Qual é o resultado final proposto pelos criadores do desafio?
-![A imagem de capa é o resultado final esperado.](imagens/resultado-proposto.png)
+![A imagem de capa é o resultado final esperado.](imagens-pro-readme/resultado-proposto.png)
 
 
 
