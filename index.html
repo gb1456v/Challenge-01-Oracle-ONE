@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Challenge 1 - Encriptador/Desencriptador de texto</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Challenge 1 - Encriptador/Desencriptador de texto</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
@@ -15,21 +16,25 @@
         <header>
             <img src="img/logo.svg" alt="logo da alura">
         </header>
-        <main class="flex-container">
-            <section class="parte-um flex-section">
-                <label for="mensagem-inicial"><textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea>
-                <input id="copy" type="button" value="Copiar"></label>
-                <p>*Apenas letras minúsculas e sem acento.</p>
-                <input id="encriptar" type="submit" class="botao"     value="Encriptar">
-                <input  id="desencriptar"
-                class="botao"  type="submit" value="Desencriptar">
+        <main>
+            <section class="parte-um">
+                <div class="textarea">
+                    <label for="mensagem-inicial">
+                    <textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea>
+                    <input class="copiar" type="button" value="Copiar"></label>
+                    <div class="alerta">
+                        <img src="img/exclamacao-texto.svg" alt="exclamação de alerta.">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                </div>
+                <input type="submit" class="botao"     value="Encriptar">
+                <inputb class="botao"  type="submit" value="Desencriptar">
             </section>
-            <section class="parte-dois column">
+            <section class="parte-dois">
                 <textarea id="resultado-mensagem" cols="30" rows="10"></textarea>
                 <img src="img/pessoa.svg" alt="imagem com uma pessoa sentada">
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </section>
-        </main>
-        
+        </main>   
     </body>
 </html>
