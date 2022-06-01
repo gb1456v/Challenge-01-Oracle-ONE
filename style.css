@@ -1,52 +1,7 @@
- * {
-    box-sizing: border-box;
- }
+ /* divs gerais*/
 body {
     background:#F3F5FC;
     font-family: 'Inter', sans-serif;
-}
-header {
-    width: 100%;
-    padding: 50px 0 25px 110px;
-}
-header img {
-    width: 30px;
-    height: 38px;
-}
-/*header fim */
-main {  
-    padding: 0 125px;
-    width: 100%;
-    height: 100%;
-    
-}
-.flex-container {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
-.flex-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.column {
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-.parte-um {
-    width: 50%;
-    height: 100%;
-}
-.parte-um label {
-    color: #495057;
-    font-size: 20px;
-    flex-direction: column;
-}
-.parte-um p {
-    margin: 30px 20px;
-    font-size: 25px;
-    width: 100%;
 }
 textarea {
     outline: 0;
@@ -58,10 +13,66 @@ textarea {
     line-height: 48px;
     background:#F3F5FC;
 }
-#copy {
+/*header*/
+header {
+    width: 100%;
+}
+header img {
+    width: 30px;
+    height: 38px;
+    margin: 80px 0 0 80px;
+}
+/*main */
+main {
+    margin-bottom: 30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*parte-um*/
+.parte-um {
+    width: 50%;
+    margin-left:1.5em;
+    padding-top: 60px;
+}
+.textarea-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.textarea-container textarea {
+    width: 100%;
+}
+.parte-um label {
+    color: #495057;
+    font-size: 20px;
+    flex-direction: column;
+}
+/*alerta*/
+.alerta {
+    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.alerta img {
+    margin: 10px;
+    width: 5%;
+}
+.alerta p {
+    margin: 30px 0;
+    font-size: 25px;
+    vertical-align: top;
+}
+/*botão copiar*/
+.copiar-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.copiar {
+    margin: 20px 25px;
     align-self: flex-end;
     padding: 20px 25px;
-    margin: 20px 25px;
     background: #0A3871;
     font-size: 23px;
     border: none;
@@ -70,12 +81,13 @@ textarea {
     cursor:pointer;
     border-radius: 20px;
 }
-#copy:hover {
+.copiar:hover {
     background: #024699;
 }
-#copy:active {
+.copiar:active {
     transform: scale(0.9);
 }
+/* estilo dos botões*/
 .botao {
     padding: 20px 25px;
     margin: 20px 25px;
@@ -93,27 +105,28 @@ textarea {
 .parte-um .botao:active {
     transform: scale(0.9);
 }
+/* parte-dois*/
 .parte-dois {
-    width: 50%;
-    margin-bottom: 35px;
-    max-width: 400px;
-    min-height: 750px;
+    width: 28%;
+    height: 100%;
+    margin: 0 30px 30px 0;
     border-radius: 50px;
     background: #fff;
 }
 .parte-dois textarea {
-    resize: none;
     margin: 25px 0 20px 0px;
+    padding: 0 15px;
     width: 98%;
-    height: 80px;
+    height: 100%;
+    max-height: 250px;
     background: none;
 }
 .parte-dois img {
-    margin: 15px auto;
-    width: 100%;
-    height: 100%;
-    max-width: 304px;
-    height:30%;
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+
 }
 .parte-dois p {
     font-size: 25px;

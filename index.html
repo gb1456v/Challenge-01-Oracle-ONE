@@ -17,22 +17,23 @@
         </header>
         <main>
             <section class="parte-um">
-                <div class="textarea">
-                    <label for="mensagem-inicial">
-                    <textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea>
-                    <input class="copiar" type="button" value="Copiar"></label>
+                <div class="textarea-container">
+                    <textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea>  
                 </div>
+                <div class="copiar-container"><input class="copiar" type="button" value="Copiar"></div>
                 <div class="alerta">
                     <img src="img/exclamacao-texto.svg" alt="exclamação de alerta.">
                     <p>Apenas letras minúsculas e sem acento.</p>
                 </div>
-                <input type="submit" class="botao"     value="Encriptar">
-                <inputb class="botao"  type="submit" value="Desencriptar">
+                <input type="submit" class="botao" value="Encriptar">
+                <input type="submit" class="botao" value="Desencriptar">
             </section>
             <section class="parte-dois">
-                <textarea id="resultado-mensagem" cols="30" rows="10"></textarea>
-                <img src="img/pessoa.svg" alt="imagem com uma pessoa sentada">
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <textarea class="resultado-mensagem" cols="30" rows="10"></textarea>
+                <div class="img">
+                    <img src="img/pessoa.svg" alt="imagem com uma pessoa sentada">
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
             </section>
         </main>   
     </body>
